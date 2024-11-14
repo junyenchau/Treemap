@@ -4,8 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Treemap</title>
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
+    <h1 id="title">Video Game Sales</h1>
+    <h4 id="description">Top 100 Most Sold Video Games Grouped by Platform</h4>
+    <svg id="canvas">
+
+    </svg>
+    <svg id="legend">
+        <rect x="10" y="0" width="40" height="40" fill="lightcyan" class="legend-item"></rect>
+        <rect x="10" y="40" width="40" height="40" fill="paleturquoise" class="legend-item"></rect>
+        <rect x="10" y="80" width="40" height="40" fill="turquoise" class="legend-item"></rect>
+        <rect x="10" y="120" width="40" height="40" fill="mediumturquoise" class="legend-item"></rect>
+    </svg>
 </body>
+<script defer src="/script.js"></script>
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
 </html>

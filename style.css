@@ -1,0 +1,25 @@
+html{
+    min-height: 100%;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100%;
+}
+
+svg{
+    background-color: whitesmoke;
+    font-size: 10px;
+}
+
+#canvas{
+    min-height: 600px;
+    min-width: 1000px;
+}
+
+.tile:hover {
+    fill:whitesmoke;
+}
